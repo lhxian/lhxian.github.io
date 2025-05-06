@@ -1,6 +1,6 @@
 `P4`和`P5`由于手算发现计算量太大容易出错，所以使用编写代码来进行生成，可直接查看`out.md`，也可以自行测试，输入文件在`input.txt`中，可以编译运行来测试，标准输出是`markdown`格式的表格数据，将标准输出保存到文件中进行可视化即可。
-[P4代码链接:https://lhxian.github.io/homework/P4](https://lhxian.github.io/homework/P4)
-[P5代码链接:https://lhxian.github.io/homework/P5](https://lhxian.github.io/homework/P5)
+[P4代码链接:https://lhxian.github.io/homework/p4](https://lhxian.github.io/homework/p4)
+[P5代码链接:https://lhxian.github.io/homework/p5](https://lhxian.github.io/homework/p5)
 ### 如下：
 >表格第一列表示当前算法所选出的点
 
