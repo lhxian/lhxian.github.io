@@ -1,46 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style>
-    h1{
-      color: blueviolet;
-    }
-    li{
-      color: crimson;
-    }
-    nav {
-      background-color: #333;
-      overflow: hidden;
-    }
+<meta charset="UTF-8">
+<title>hx</title>
+<style>
+  body, html {
+    height: 100%; 
+    margin: 0;
+  }
+  body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+  }
+  .center-div {
+    width: 320px;
+    height: 320px;
+    /* background-color: lightblue; */
+    background-image: url('./image.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    line-height: 150px; 
 
-    nav a {
-      float: left;
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 20px;
-      text-decoration: none;
-    }
-
-    nav a:hover {
-      background-color: #575757;
-    }
-  </style>
+  }
+</style>
 </head>
 <body>
-  <nav>
-    <a href="ds/">ds</a>
-    <a href="oj/">oj</a>
-  </nav>
-  <!-- <h1>code collection</h1>
-  <ol>
-    <li><a href="ds/">ds</a></li>
-    <li><a href="pyfile/">pyfile</a></li>
-    <li><a href= "book/">e-book</a></li>
-    <li><a href="blog/">blog</a></li>
-  </ol> -->
+  <div class="center-div"></div>
 </body>
 </html>
