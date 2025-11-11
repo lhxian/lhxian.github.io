@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CG_demo</title>
+    <style>
+        .highlight {
+            color: coral;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            border: solid;
+            /* 顶对齐，也可以用 center */
+            gap: 20px;
+            /* 左右间距 */
+        }
+
+        .text {
+            flex: 1;
+            /* 左边文字区域占可用空间 */
+        }
+        .video{
+            width: 50%;
+        }
+
+        .video video {
+            width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CG_demo使用说明</h1>
+    <!-- <video width="600" controls>
+        <source src="resource/clip.mp4" type="video/mp4">
+        你的浏览器不支持 HTML5 视频播放。
+    </video> -->
+
+    <div class="container">
+        <div class="text">
+            <p><span class="highlight">图形绘制</span>：</p>
+            <ol>
+                <li>
+                线段绘制，使用鼠标点击之后拖动到目标位置后释放鼠标即可绘制一条线段；
+                </li>
+                <li>
+                    椭圆的绘制，和绘制线段类型，通过鼠标拖动和释放在画布上构造一个矩形作为椭圆的外接矩形；
+                </li>
+                <li>
+                    曲线和多边形的绘制，需要通过鼠标在画布上点击形成一组控制点，当用户认为选好控制点之后，按下回车即可，
+                    对于多边形，会自动闭合，所以不需要保证最后一个点和第一个点重合；
+                </li>
+
+            </ol>
+        </div>
+
+        <div class="video">
+            <video src="resource/base_use.mp4" controls></video>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="text">
+            <p><span class="highlight">线段剪裁</span>：只适用于线段，选中该线段之后，通过鼠标点击后拖动形成一个剪裁的矩形区域，最后松开鼠标即可。</p>
+        </div>
+
+        <div class="video">
+            <video src="resource/clip.mp4" controls></video>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="text">
+            <p><span class="highlight">图形变换</span>：在右边的调节区域拖动或者修改对应的数值即可，对于旋转操作，旋转中心默认位置为图形的中心。</p>
+        </div>
+
+        <div class="video">
+            <video src="resource/transform.mp4" controls></video>
+        </div>
+    </div>
+    <div style="border: solid;">
+        <p><span class="highlight">画布保存</span>：当需要保存当前画布的时候，点击
+            <span style="color: blueviolet;">Save</span>后弹出一个保存文件和保存路径选择的对话框，用
+            户需要输入图片的文件名（包括后缀名），例如<span style="color: brown;">png,bmp,jpg</span>，即可进行文件保存。
+        </p>
+
+    </div>
+
+
+
+</body>
+
+</html>
