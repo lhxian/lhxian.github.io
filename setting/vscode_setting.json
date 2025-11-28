@@ -1,0 +1,198 @@
+{
+  "remote.SSH.useExecServer": false,
+  "workbench.startupEditor": "none",
+  "editor.fontLigatures": false,
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "editor.tokenColorCustomizations": {
+    "keywords": "#9c9c9c",
+    "comments": "#028a18",
+    "numbers": "#FF0000",
+    "variables": "#b700ff",
+    "strings": "#03b903c9",
+    "types": "#00ff0d",
+    "functions": "#2364dd",
+    "textMateRules": [
+      {
+        "scope": "keyword.operator",
+        "settings": {
+          "foreground": "#00c3ff"
+        },
+      }
+    ]
+  },
+  // "editor.fontFamily": "Consolas",
+  "editor.fontFamily": "JetBrains Mono NL",
+  // "editor.fontFamily": "Fira Code",
+  // "editor.fontFamily": "Code New Roman",
+  // "editor.fontFamily": "Luculent",
+  // "editor.fontFamily": "Source Code Pro",
+  // "terminal.integrated.fontFamily": "Consolas",
+  // "terminal.integrated.fontFamily": "JetBrains Mono NL",
+  // "terminal.integrated.fontFamily": "Source Code Pro",
+  "terminal.integrated.fontSize": 9,
+
+  "todohighlight.isEnable": true,
+  "todohighlight.include": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.html",
+    "**/*.php",
+    "**/*.css",
+    "**/*.scss",
+    "**/*.cpp",
+    "**/*.h",
+    "*.cpp",
+    "*.h"
+  ],
+  "todohighlight.keywords": [
+    {
+      "text": "TODO:",
+      "color": "#0000ff",
+      "backgroundColor": "#ff0000",
+    }
+  ],
+  "clangd.arguments": [
+    "--background-index",
+    "--clang-tidy",
+    // "--completion-style=bundled",
+    //"--header-insertion=iwyu",
+    "-header-insertion=never",
+    "--pch-storage=memory",
+    "--enable-config",
+    "--function-arg-placeholders=false"
+  ],
+  "C_Cpp.codeAnalysis.maxMemory": 256,
+  "C_Cpp.intelliSense.maxMemory": 256,
+  "C_Cpp.intelliSenseMemoryLimit": 256,
+  "C_Cpp.maxMemory": 256,
+  "C_Cpp.references.maxMemory": 256,
+  "typescript.tsserver.maxTsServerMemory": 2048,
+  "editor.inlayHints.enabled": "off",
+  "files.autoSave": "onFocusChange",
+  "workbench.settings.applyToAllProfiles": [
+    
+  ],
+  "explorer.confirmDelete": false,
+  "extensions.autoCheckUpdates": false,
+  "extensions.autoUpdate": false,
+  "update.enableWindowsBackgroundUpdates": false,
+  "update.showReleaseNotes": false,
+  "telemetry.telemetryLevel": "off",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+  //latex settings
+  "latex-workshop.latex.tools": [
+    {
+      "name": "xelatex",
+      "command": "xelatex",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOCFILE%"
+      ]
+    },
+    {
+      "name": "pdflatex",
+      "command": "pdflatex",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOCFILE%"
+      ]
+    },
+    {
+      "name": "latexmk",
+      "command": "latexmk",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-pdf",
+        "-outdir=%OUTDIR%",
+        "%DOCFILE%"
+      ]
+    },
+    {
+      "name": "bibtex",
+      "command": "bibtex",
+      "args": [
+        "%DOCFILE%"
+      ]
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "xelatex",
+      "tools": [
+        "xelatex"
+      ],
+    },
+    {
+      "name": "pdflatex",
+      "tools": [
+        "pdflatex"
+      ]
+    },
+    {
+      "name": "xe->bib->xe->xe",
+      "tools": [
+        "xelatex",
+        "bibtex",
+        "xelatex",
+        "xelatex"
+      ]
+    },
+    {
+      "name": "pdf->bib->pdf->pdf",
+      "tools": [
+        "pdflatex",
+        "bibtex",
+        "pdflatex",
+        "pdflatex"
+      ]
+    }
+  ],
+  "cmake.pinnedCommands": [
+    "workbench.action.tasks.configureTaskRunner",
+    "workbench.action.tasks.runTask"
+  ],
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "editor.minimap.enabled": false,
+  "markdown-preview-enhanced.previewTheme": "github-light.css",
+  "cmake.outputLogEncoding": "utf-8",
+  "update.mode": "none",
+  "files.dialog.defaultPath": "E:\\code",
+  "python.languageServer": "Pylance",
+  "remote.SSH.remotePlatform": {
+    "Debian": "linux",
+    "net": "linux",
+    "ubuntu": "linux",
+    "cloud": "linux",
+    "os": "linux",
+    "hz-t3.matpool.com": "linux",
+    "matpool": "linux",
+    "OP": "linux",
+    "COM": "linux",
+    "DebianCom": "linux",
+    "Net": "linux",
+    "local_net": "linux",
+    "Orange": "linux",
+    "Ubuntu20_04": "linux",
+    "Orange_8t": "linux",
+    "20t": "linux"
+  },
+  "livePreview.autoRefreshPreview": "On Changes to Saved Files",
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "notebook.output.fontSize": 11,
+  "debug.console.fontSize": 11,
+  "glsllint.glslangValidatorPath": "D:\\glslValidate\\bin\\glslangValidator.exe",
+  "editor.fontSize": 11,
+  "java.configuration.maven.globalSettings": "E:\\java_pro\\apache-maven-3.9.10\\conf\\settings.xml"
+}
