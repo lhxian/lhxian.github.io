@@ -6,9 +6,9 @@ layout: home
 ---
 Blog Home.
 {% for vk_note in site.vk %}
-    <h2>
-        <a href = "{{ vk_note.url }}">
-            {{ vk_note.title}}
-        </a>
-    </h2>
+<h2>
+    <a href = "{{ vk_note.url }}">
+        {{ vk_note.title}}
+    </a>
+</h2>
 {% endfor %}
