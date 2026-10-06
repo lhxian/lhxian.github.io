@@ -8,7 +8,7 @@ Blog Home.
 {% for vk_note in site.vk %}
     <h2>
         <a href = "{{ vk_note.url }}">
-            {{ vk_note.name }} - {{ vk_note.position }}
+            {{ vk_note.title}} - {{ vk_note.position }}
         </a>
     </h2>
 {% endfor %}
