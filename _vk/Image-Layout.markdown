@@ -1,3 +1,7 @@
+---
+title: Image Layout
+date: 2026-10-06
+---
 # Vulkan中的Image Layout(Vulkan学习笔记)
 ## Image索引方式
 首先知道的是在Vulkan中，在GPU上Image的保存方式对程序员和Vulkan都是透明的，所以使用**VK_IMAGE_LAYOUT_XXX**来表示Image的状态。

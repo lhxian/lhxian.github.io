@@ -1,3 +1,7 @@
+---
+title: Graphics Pipeline
+date: 2026-10-06
+---
 # graphicPipeline（vulkan笔记）
 无论是使用**RenderPass**还是现代化的**Dynamic Rendering**，渲染管线(Grahics Pipeline)在创建的时候仍然需要固定。
 创建graphics pipeline需要设置的内容如下：
