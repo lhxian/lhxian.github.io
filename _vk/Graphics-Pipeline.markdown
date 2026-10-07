@@ -1,5 +1,6 @@
 ---
 title: Graphics Pipeline
+layout: post
 date: 2026-10-06
 ---
 # graphicPipeline（vulkan笔记）

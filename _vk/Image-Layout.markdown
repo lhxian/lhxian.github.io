@@ -1,5 +1,6 @@
 ---
 title: Image Layout
+layout: post
 date: 2026-10-06
 ---
 # Vulkan中的Image Layout(Vulkan学习笔记)
