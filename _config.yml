@@ -31,6 +31,9 @@ collections:
   vk:
     output: true
     permalink: /vk/:name/
+  cann:
+    output: true
+    permalink: /cann/:name/
 
 # Build settings
 theme: minima
